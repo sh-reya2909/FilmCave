@@ -1,0 +1,67 @@
+body{
+    background-color: black;
+}
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background:linear-gradient(to right, #0f0f0f, #2d1b4e);
+    color: white;
+    padding: 20px;
+    margin-bottom: 2px;
+}
+#nav a{
+    text-decoration: none;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+}
+#nav a:hover{
+    transform:scale(1.2);
+}
+#nav h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+#hero{
+    background:linear-gradient(to right, #0f0f0f, #2d1b4e);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#first{
+    display: flex;
+    gap: 25px;
+    overflow-x: auto;
+    padding: 20px;
+    scroll-behavior: smooth;
+    background: linear-gradient(to bottom,#000000, #0f172a, #000000);
+}
+.cards{
+    text-align: center;
+    flex-shrink: 0;
+}
+.cards a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cards:hover{
+    transform:scale(1.07);
+    transition: 0.2s;
+    box-shadow: 0 0 20px #00BFFF;
+}
+#footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 2px;
+    background:linear-gradient(to right, #0f0f0f, #2d1b4e);
+}
+#footer a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    color: white
+}
